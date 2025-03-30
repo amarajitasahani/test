@@ -16,7 +16,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 	if (
 	  referringURL?.includes('facebook.com') || 
 	  referringURL?.includes('x.com') || 
-	  fbclid || 
+	  fbclid
 	  xclid
 	) {
 	  return {
